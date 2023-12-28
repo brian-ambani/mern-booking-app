@@ -31,7 +31,7 @@ const Header = () => {
             </>
           ) : (
             <Link
-              to="./sign-in"
+              to="/signin"
               className="flex bg-white items-center rounded-md text-blue-600 px-3 font-bold 
         transition duration-200 ease-in-out hover:bg-gray-300 "
             >
