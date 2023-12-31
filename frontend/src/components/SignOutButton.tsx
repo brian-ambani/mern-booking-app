@@ -11,7 +11,7 @@ const SignOutButton = () => {
     onSuccess: async () => {
       await queryClient.invalidateQueries("validateToken");
       //show toast
-      showToast({ message: "Signed out successfully", type: "SUCCESS" });
+      showToast({ message: "Signed out!", type: "SUCCESS" });
     },
     onError: (error: Error) => {
       //show toast
